@@ -53,7 +53,7 @@ max_gas = 6000000
 gas_price = { price = 0.001, denom = 'photon' }
 gas_adjustment = 1.0
 clock_drift = '1m' # to accomdate docker containers
-trusting_period = '14days'
+trusting_period = '110s'
 trust_threshold = { numerator = '1', denominator = '3' }
 
 [[chains]]
@@ -69,7 +69,7 @@ max_gas = 6000000
 gas_price = { price = 0.001, denom = 'photon' }
 gas_adjustment = 1.0
 clock_drift = '1m' # to accomdate docker containers
-trusting_period = '14days'
+trusting_period = '110s'
 trust_threshold = { numerator = '1', denominator = '3' }
 EOF
 
